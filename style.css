@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.body {
+    font-family: 'Roboto Slab';
+}
+
+.image{  
+    background-image: url('image.jpg') ;
+    background-size: cover;
+}
+
+.top-left {
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    margin-top: 8px;
+    margin-right: 16px;
+}
+
+.centered {
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+  }
